@@ -3,6 +3,9 @@
 
 UPDATED: Reconfigured to align with updates to [youtube-comment-downloader](https://github.com/egbertbouman/youtube-comment-downloader) which the script is originally based on. Overcomes the 20 comment limit from previous version. Adds new data columns for video title, publish date, views, and video URL.
 
+Originally by Ahmed Shahriar Sakib
+GitHub : https://github.com/ahmedshahriar
+
 This script will dump youtube video comments to a CSV from youtube video links. Video links can be placed inside a variable or list or CSV
 
 It requires **pandas** and **requests** modules
