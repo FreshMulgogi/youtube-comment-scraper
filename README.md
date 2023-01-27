@@ -1,9 +1,9 @@
 # Parse Comments from Youtube Videos
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/youtube-comment-scraper/main)
 
-This script will dump youtube video comments to a CSV from youtube video links. Video links can be placed inside a variable or list or CSV
+UPDATED: Reconfigured to align with updates to [youtube-comment-downloader](https://github.com/egbertbouman/youtube-comment-downloader) which the script is originally based on. Overcomes the 20 comment limit from previous version. Adds new data columns for video title, publish date, views, and video URL.
 
-The script is based on [youtube-comment-downloader](https://github.com/egbertbouman/youtube-comment-downloader)
+This script will dump youtube video comments to a CSV from youtube video links. Video links can be placed inside a variable or list or CSV
 
 It requires **pandas** and **requests** modules
 
@@ -13,7 +13,7 @@ To run :
 
 `python ytb_comment_scraper.py`
 
-By default, the script will download most recent 100 comments
+By default, the script will download most recent 150 comments
 
 The comments will be dumped to a CSV file
 
